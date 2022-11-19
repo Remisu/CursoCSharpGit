@@ -1,6 +1,7 @@
 ﻿using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Outros;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
 
 
 namespace CursoCSharp {
@@ -37,6 +38,9 @@ namespace CursoCSharp {
                 {"Hash - Criptografar", TestandoHashCriptografar.Executar},
                 {"Stack - Colecoes", ColecoesStack.Executar},
                 {"Dictionary - Colecoes", ColecoesDictionary.Executar},
+
+                //Orientação a objeto
+                {"Herança - OO", Heranca.Executar},
             });
 
             central.SelecionarEExecutar();
