@@ -2,6 +2,8 @@
 using CursoCSharp.Outros;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
+
 
 
 namespace CursoCSharp {
@@ -46,6 +48,15 @@ namespace CursoCSharp {
                 {"Polimorfismo - OO", Polimorfismo.Executar},
                 {"Abstract - OO", Abstract.Executar},
                 {"Interface - OO", Interface.Executar},
+                {"Sealed - OO", Sealed.Executar},
+
+                 //Metodos e Funções
+                {"Exemplo Lambda - Metodos e Funções", ExemploLambda.Executar},
+                {"Lambdas Como Delegate", LambdasDelegate.Executar},
+                {"Usando Delegates", UsandoDelegate.Executar},
+                {"Delegates com Funções Anonimas", DelegateFuncAnonima.Executar},
+                {"Delegates como Parametros", DelegatesComoParametros.Executar},
+
             });
 
             central.SelecionarEExecutar();
